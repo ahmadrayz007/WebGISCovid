@@ -25,9 +25,9 @@ a {
     display: block;
     clear: both;
 }
-/* header{
+header{
     
-} */
+}
 header h1 {
     float: left;
     padding:10px 0px;
@@ -116,7 +116,7 @@ footer {
 }
 footer small {
 	color: #fff;
-}
+
 .bg-loader {
     background-color: white;
     position: fixed;
