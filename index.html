@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webgis Aksesbilitas RS Covid 19 Jawa Tengah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--loader-->
+    <div class="bg-loader">
+        <div class="loader"></div>
+    </div>
+
+    <!--header-->
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="https://www.instagram.com/abdulbasithmukhlas/"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <h1><a href="index.html"></a>Aksesbilitas RS Covid 19 Jawa Tengah</h1>
+            <ul>
+                <li class= "active"><a href="index.html">HOME</a></li>
+                <li><a href="latbel.html">LATAR BELAKANG</a></li>
+                <li><a href="wilayah.html">GAMBARAN WILAYAH</a></li>
+                <li><a href="metodologi.html">METODOLOGI</a></li>
+                <li><a href="peta.html">PETA</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--banner-->
+    <section class="banner">
+        <h2>WELCOME AND STAY HEALTHY</h2>
+    </section>
+
+    <!--latar belakang-->
+    <section class="latbel">
+        <div class="container">
+            <h3>LATAR BELAKANG</h3>
+            <p>Penyebaran Covid-19 di Indonesia semakin tinggi setiap harinya. Berbagai wilayah disiagakan untuk bisa menangani berbagai dampak yang ditimbulkan  seperti lonjakan pasien Covid-19. Provinsi Jawa Tengah menjadi salah satu daerah yang masih disibukkan dalam penanganan kasus covid-19. 
+                Terhitung pada tanggal 8 Juni 2021 terdapat 11.786 kasus dengan Kabupaten Kudus, Demak, Grobogan, Jepara,Sragen, Tegal dan Brebes termasuk ke dalam zona merah. Pemerintah juga telah bersiaga dengan menyiapkan beberapa rumah sakit rujukan diberbagai daerah untuk menangani pasien covid 19. Total terdapat 212 rumah sakit rujukan di Jawa Tengah. Namun, yang menjadi masalah ialah persebaran dan aksesbilitas rumah sakit tersebut apakah telah menjangkau seluruh kawasan di Jawa Tengah.
+                </p>
+        </div>
+    </section>
+
+     <!--wilayah-->
+     <section class="wilayah">
+        <div class="container">
+            <h3>GAMBARAN WILAYAH</h3>
+            <p>Wilayah administrasi Provinsi Jawa Tengah terbagi dalam 29 kabupaten dan 6 kota dimana terdapat 573 kecamatan. 750 kelurahan.dan 7.809 desa dimana ibukota terletak di Kota Semarang. Luas Wilayah Administratif Provinsi Jawa Tengah sebesar 32.544.12 km². dimana kabupaten yang memiliki wilayah terluas adalah Kabupaten Cilacap sebesar 2.138,51 km² sedangkan kabupetan yang memiliki luas wilayah terkecil adalah Kabupaten Kudus sebesar 425,17km². 
+            </p>
+        </div>
+    </section>
+
+    <!--metodologi-->
+    <section class="metodologi">
+        <div class="container">
+            <h3>METODOLOGI</h3>
+            <p>Perpaduan antara analisis jaringan (network analysis) dan analisis interpolasi digunakan untuk menghitung jangkauan aksesbilitas rumah sakit rujukan covid-19 di Jawa Tengah. Dalam pengolahan QGIS, analisis jaringan menggunakan plug-in QNEAT berupa iso area pointcloud untuk mengetahui jarak terdekat menuju objek dan analisis IDW (Inverse distance weighting) untuk menganalisis daya jangkau terkait aksesbilitas RS rujukan covid-19 Jawa Tengah. Data yang dibutuhkan antara lain data rumah sakit rujukan covid 19 Jawa Tengah, data administrasi Jawa Tengah dan data jaringan jalan Jawa Tengah. Terkait cara menginterpretasi peta, wilayah yang berada pada warna yang lebih cerah memiliki cost atau tingkat aksesbilitas tinggi begitupun sebaliknya pada wilayah biru tua tingkat aksesbilitas sangat rendah.
+            </p>
+        </div>
+    </section>
+
+        <!--peta-->
+        <section class="peta">
+            <div class="container">
+                <h3>PETA</h3>
+            </div>
+        <div>
+            <iframe src="https://webgisaksesbilitas.000webhostapp.com/#8/-7.594/110.484" width="100%" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        </section>
+
+		<!-- bagian footer -->
+		<footer>
+			<div class="container">
+				<small>Copyright &copy; 2021.</small>
+			</div>
+		</footer>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
